@@ -129,6 +129,7 @@ These charts help in understanding gameplay behavior and algorithm efficiency.
 
 ### Maze Solver Game
 <img width="602" height="732" alt="Maze Game Menu" src="https://github.com/user-attachments/assets/5c034cc0-dcc4-4a2c-8902-66c700f4df9e" />
+
 <img width="802" height="632" alt="Maze Solver" src="https://github.com/user-attachments/assets/46c1cc9a-4c80-44cd-be62-bf2bca0a0c6c" />
 
 ### Tic Tac Toe
@@ -137,11 +138,12 @@ These charts help in understanding gameplay behavior and algorithm efficiency.
 
 ### AI Quiz
 
-![AI Quiz](<img width="452" height="482" alt="AI Quiz Game Menu" src="https://github.com/user-attachments/assets/930346f3-c385-42a0-8a69-1292e3ef7309" />)
+<img width="452" height="482" alt="AI Quiz Game Menu" src="https://github.com/user-attachments/assets/930346f3-c385-42a0-8a69-1292e3ef7309" />
+
 <img width="802" height="632" alt="Quiz Game" src="https://github.com/user-attachments/assets/4f26ac96-2488-4bf4-9d47-97e9e3fcd3ee" />
 
 ### AI Performance Analyzer
-![Performance Analyzer](<img width="1002" height="682" alt="AI Performance Analyzer" src="https://github.com/user-attachments/assets/858aefb4-c355-443d-b173-88f8e034ffdc" />)
-![Games Record](<img width="852" height="432" alt="Game Records" src="https://github.com/user-attachments/assets/631ea201-ad82-4b44-a1ad-b3f633eca9e9" />)
+<img width="1002" height="682" alt="AI Performance Analyzer" src="https://github.com/user-attachments/assets/858aefb4-c355-443d-b173-88f8e034ffdc" />
+<img width="852" height="432" alt="Game Records" src="https://github.com/user-attachments/assets/631ea201-ad82-4b44-a1ad-b3f633eca9e9" />
 
 
