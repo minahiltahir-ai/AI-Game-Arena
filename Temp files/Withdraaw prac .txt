@@ -1,0 +1,152 @@
+import tkinter as tk
+from tkinter import messagebox
+
+# -------------------------------
+# Utility Function: Center Window
+# -------------------------------
+def center_window(window, width, height):
+    window.update_idletasks()
+    screen_width = window.winfo_screenwidth()
+    screen_height = window.winfo_screenheight()
+
+    x = (screen_width // 2) - (width // 2)
+    y = (screen_height // 2) - (height // 2)
+
+    window.geometry(f"{width}x{height}+{x}+{y}")
+
+
+# -------------------------------
+# Main Application Class
+# -------------------------------
+class AIGameArena:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("AI Game Arena")
+        self.root.resizable(False, False)
+
+        # ✅ Direct start: center + increased size
+        center_window(self.root, 800, 600)
+
+        # Main frame
+        self.main_frame = tk.Frame(self.root, bg="#1e1e2f")
+        self.main_frame.pack(fill="both", expand=True)
+
+        self.create_widgets()
+
+    # -------------------------------
+    # Ask user to resize window
+    # -------------------------------
+
+    # -------------------------------
+    # Create GUI Widgets
+    # -------------------------------
+    def create_widgets(self):
+        title = tk.Label(
+            self.main_frame,
+            text="🎮 AI GAME ARENA",
+            font=("Arial", 22, "bold"),
+            fg="white",
+            bg="#1e1e2f"
+        )
+        title.pack(pady=30)
+
+        subtitle = tk.Label(
+            self.main_frame,
+            text="Select an AI Game",
+            font=("Arial", 14),
+            fg="lightgray",
+            bg="#1e1e2f"
+        )
+        subtitle.pack(pady=10)
+
+        btn_maze = tk.Button(
+            self.main_frame,
+            text="Maze Solver",
+            width=30,
+            height=2,
+            command=self.open_maze_game
+        )
+        btn_maze.pack(pady=10)
+
+        btn_ttt = tk.Button(
+            self.main_frame,
+            text="Tic Tac Toe",
+            width=30,
+            height=2,
+            command=self.open_tictactoe
+        )
+        btn_ttt.pack(pady=10)
+
+        btn_quiz = tk.Button(
+            self.main_frame,
+            text="AI Quiz Game",
+            width=30,
+            height=2,
+            command=self.open_quiz_game
+        )
+        btn_quiz.pack(pady=10)
+
+        btn_stats = tk.Button(
+            self.main_frame,
+            text="AI Performance Analyzer",
+            width=30,
+            height=2,
+            command=self.open_stats
+        )
+        btn_stats.pack(pady=10)
+
+        btn_exit = tk.Button(
+            self.main_frame,
+            text="Exit",
+            width=30,
+            height=2,
+            bg="red",
+            fg="white",
+            command=self.root.quit
+        )
+        btn_exit.pack(pady=20)
+
+    # -------------------------------
+    # Button Events
+    # -------------------------------
+    def open_maze_game(self):
+        self.new_window("Maze Solver Game")
+
+    def open_tictactoe(self):
+        self.new_window("Tic Tac Toe Game")
+
+    def open_quiz_game(self):
+        self.new_window("AI Quiz Game")
+
+    def open_stats(self):
+        self.new_window("AI Performance Analyzer")
+
+    # -------------------------------
+    # New Window Interface
+    # -------------------------------
+    def new_window(self, title):
+        window = tk.Toplevel(self.root)
+        window.title(title)
+        center_window(window, 400, 300)
+
+        label = tk.Label(window, text=title, font=("Arial", 16, "bold"))
+        label.pack(pady=40)
+
+        info = tk.Label(
+            window,
+            text="This module will be implemented next.",
+            font=("Arial", 12)
+        )
+        info.pack(pady=10)
+
+        btn_close = tk.Button(window, text="Close", command=window.destroy)
+        btn_close.pack(pady=20)
+
+
+# -------------------------------
+# Run Application
+# -------------------------------
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = AIGameArena(root)
+    root.mainloop()

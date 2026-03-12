@@ -1,0 +1,18 @@
+Date,Game,Player,Metric,Value,Result
+01/01/2025,Maze ,Alice,Score,85.0,Win
+01/01/2025,Maze ,Bob,Score,72.0,Lose
+01/01/2025,Maze ,Charlie,Score,90.0,Win
+02/01/2025,Maze ,Alice,Score,88.0,Win
+02/01/2025,Maze ,Bob,Score,75.0,Win
+02/01/2025,Maze ,Charlie,Score,70.0,Lose
+03/01/2025,Tic Tac Toe,Alice,Wins,3.0,Win
+03/01/2025,Tic Tac Toe,Bob,Wins,1.0,Lose
+03/01/2025,Tic Tac Toe,Charlie,Wins,2.0,Draw
+04/01/2025,AI Quiz,Alice,Accuracy,85.0,Pass
+04/01/2025,AI Quiz,Bob,Accuracy,60.0,Fail
+04/01/2025,AI Quiz,Charlie,Accuracy,92.0,Pass
+09/01/2026,Maze,Minahil ,Moves,21.0,Win
+09/01/2026,Maze,Saif ,Moves,29.0,Win
+2026-01-11,TicTacToe,aa,Win,1.0,Win
+2026-01-11,Quiz,aa,Score,0.0,Pass
+2026-01-11,Quiz,M,Score,1.0,Pass
