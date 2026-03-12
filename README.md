@@ -4,7 +4,7 @@ An AI-powered mini game platform where users can play games like Maze Solver, Ti
 
 ## Features
 
--Interactive "GUI built with Tkinter"
+- Interactive "GUI built with Tkinter"
 - Multiple "AI-powered games"
 - AI Auto-Solve functionality
 - Intelligent **hint system**
@@ -120,11 +120,5 @@ cd AI-Game-Arena
 ```bash
 python AI_GameArena.py
 ```
-
-## Future Improvements
-
-* More AI-based games
-* Reinforcement Learning based agents
-* Online leaderboard system
-* Advanced analytics dashboard
+#  Screenshots of the Game Arena
 
