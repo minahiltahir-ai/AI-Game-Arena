@@ -23,12 +23,13 @@ An AI-powered mini game platform where users can play games like Maze Solver, Ti
 
 ## Games Included
 
-### - Maze Solver
-### - Tic Tac Toe
-### - Memory Pattern Game
-### - Logic Mini Games
-### - AI Quiz
-### - Performance Analyzer
+- Maze Solver
+- Tic Tac Toe
+- Memory Pattern Game
+- Logic Mini Games
+- AI Quiz
+- Performance Analyzer
+
 
 ## Algorithms Used
 
